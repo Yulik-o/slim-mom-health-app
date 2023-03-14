@@ -1,0 +1,39 @@
+.formContainer {
+    width: 100%;
+    min-width: 280px;
+    height: 100vh;
+   
+    margin: 0 auto;
+    
+    padding: 40px 20px 175px;
+
+    background-color: var(--btn-text-active-color);
+    @media (min-width: 768px) {
+        height: 100vh;
+    padding-top: 160px;
+    padding-left: 32px;
+    background-image: 
+    url('../../img/Layer.png'),
+    url('../../img/strawberry.png'),
+    url('../../img/banan.png'),
+    url('../../img/Vector3.jpeg');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom 300px right 1px, bottom 219px right -77px, bottom -100px right -1px, bottom -161px right -50px;
+    background-size: 746px 820px, 307px 302px, 480px 450px, 553px 750px;
+
+    }
+
+    @media (min-width: 1280px) {
+    height: 100vh;
+    padding-top: 153px;
+    padding-left: 16px;
+    background-image: 
+    url('../../img/Layer.png'),
+    url('../../img/strawberry.png'),
+    url('../../img/banan.png'),
+    
+    url('../../img/Vector3.jpeg');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom -55px right 170px, bottom -20px right -5px, bottom 330px right 1px, bottom -31px right -1px;
+    }
+}
